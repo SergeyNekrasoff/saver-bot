@@ -1,0 +1,25 @@
+{
+  "name": "saver-bot",
+  "version": "1.0.0",
+  "description": "web scraping of pages",
+  "scripts": {
+    "server": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/zefirience/zefir-saver.git"
+  },
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/zefirience/zefir-saver#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-cron": "^2.0.3",
+    "node-emoji": "^1.8.1",
+    "osmosis": "^1.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
